@@ -2,6 +2,7 @@
 Welcome to **Nikhil's Image Generator using Flux**, an AI-powered app that creates images of Nikhil using **Flux framework**, **Google Gemini AI**, and **Replicate API**. Gemini refines prompts, and Flux generates personalized images.
 
 Hosted on Streamlit: [Link to Nikhil's Image Generator App on Streamlit](https://flux-image-generator-58dpp94unlwkzkaz5hmagy.streamlit.app/)
+
 Hosted on HugginFace Spaces: [Link to Nikhil's Image Generator App on HuggingFace](https://huggingface.co/spaces/unikill066/Flux-image-generator)
 
 ---
