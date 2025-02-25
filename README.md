@@ -71,7 +71,7 @@ Feel free to contribute or reach out!
 
 1. **GitHub Issues** - Report bugs or request features.
 2. **Pull Requests** - Improve the project with your contributions.
-3. **Email** - [Mail](unikill066@gmail.com)
+3. **Email** - [G-mail](unikill066@gmail.com)
 
 
 ## License
