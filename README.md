@@ -11,10 +11,9 @@ Hosted on Streamlit: [Link to Nikhil's Image Generator App](https://flux-image-g
 3. The app uses the modified prompt to generate images with the Replicate model.
 4. The generated images, showing Nikhil at the summit of Mt. Rainier, are displayed to the user.
 
-| Image 1 | Image 2 | Image 3 |
+| Nikhil - Real Madrid, petting british shorthair | Nikhil - conducting some experiments on hDRG beside a cat | Nikhil wins the race, with rustic, French-like aesthetic |
 |---|---|---|
 | ![Example Image 1](misc/n1.png) | ![Example Image 2](misc/n2.png) | ![Example Image 3](misc/n3.png) |
-
 
 
 ## How It Works
@@ -66,12 +65,13 @@ Hosted on Streamlit: [Link to Nikhil's Image Generator App](https://flux-image-g
 4. **[Streamlit](https://streamlit.io/)** - Web-based UI framework.
 
 
-## Contact & Contributions
+## Contact
 
 Feel free to contribute or reach out!
 
 1. **GitHub Issues** - Report bugs or request features.
 2. **Pull Requests** - Improve the project with your contributions.
+3. **Email** - [Mail](unikill066@gmail.com)
 
 
 ## License
