@@ -1,5 +1,5 @@
-# FLUX-image-generator# Nikhil's Image Generator using Flux
-Welcome to **Nikhil's Image Generator using Flux**, an AI-powered application that generates images of Nikhil using AI models and prompting techniques. This project leverages the **Flux framework**, **Google Gemini AI**, and **Replicate API** to create dynamic and personalized images. The application uses Gemini for prompt modification and FLUX for image generation.
+# Nikhil's Image Generator using Flux
+Welcome to **Nikhil's Image Generator using Flux**, an AI-powered app that creates images of Nikhil using **Flux framework**, **Google Gemini AI**, and **Replicate API**. Gemini refines prompts, and Flux generates personalized images.
 
 ---
 
@@ -8,6 +8,7 @@ Welcome to **Nikhil's Image Generator using Flux**, an AI-powered application th
 2. The app, using Gemini, modifies the prompt to something like: "Nikhil reaches the summit of Mt. Rainier, standing proudly with an ice axe in hand, gazing at the breathtaking sunrise over the snow-covered peaks."
 3. The app uses the modified prompt to generate images with the Replicate model.
 4. The generated images, showing Nikhil at the summit of Mt. Rainier, are displayed to the user.
+
 | Image 1 | Image 2 | Image 3 |
 |---|---|---|
 | ![Example Image 1](misc/n1.png) | ![Example Image 2](misc/n2.png) | ![Example Image 3](misc/n3.png) |
