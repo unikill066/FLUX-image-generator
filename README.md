@@ -1,6 +1,8 @@
 # Nikhil's Image Generator using Flux
 Welcome to **Nikhil's Image Generator using Flux**, an AI-powered app that creates images of Nikhil using **Flux framework**, **Google Gemini AI**, and **Replicate API**. Gemini refines prompts, and Flux generates personalized images.
 
+Hosted on Streamlit: [Link to Nikhil's Image Generator App](https://flux-image-generator-58dpp94unlwkzkaz5hmagy.streamlit.app/)
+
 ---
 
 ## Preview & Example
@@ -13,32 +15,7 @@ Welcome to **Nikhil's Image Generator using Flux**, an AI-powered app that creat
 |---|---|---|
 | ![Example Image 1](misc/n1.png) | ![Example Image 2](misc/n2.png) | ![Example Image 3](misc/n3.png) |
 
-## Usage
-1. **Run the Streamlit app locally:**
 
-```bash
-streamlit run app.py  
-```
-
-2. **Enter a prompt:** In the app, enter a description of the scene you want to generate.
-
-3. **Adjust settings (optional):** Use the advanced settings to customize the image generation process.
-
-4. **Generate images:** Click the "Generate Images" button.
-
-5. **View and download:** The generated images will be displayed. You can download them using the provided links.
-
-
----
-
-## Features
-
-1. **Prompt Modification with Gemini:** Takes a user-provided prompt and modifies it using Gemini to seamlessly integrate Nikhil into the scene. Ensures Nikhil is visible and actively participating.
-2. **Image Generation with Replicate:** Leverages a custom Replicate model to generate high-quality images featuring Nikhil.
-3. **Customizable Settings:** Allows users to adjust the number of inference steps, guidance scale, and number of output images.
-4. **Image Display and Download:** Displays the generated images within the app and provides download links.
-
----
 
 ## How It Works
 
@@ -50,7 +27,6 @@ streamlit run app.py
 
 4. **Display and Download Images** - View generated images and download them instantly.
 
----
 
 ## Installation & Setup
 
@@ -81,16 +57,6 @@ streamlit run app.py
    streamlit run app.py
    ```
 
----
-
-## Usage Guide
-
-1. Enter a text prompt in the input field.
-2. Adjust **Advanced Settings** (optional) such as inference steps, quality, aspect ratio, etc.
-3. Click **Generate Images**.
-4. View and download the AI-generated images of Nikhil!
-
----
 
 ## Built With
 
@@ -99,7 +65,6 @@ streamlit run app.py
 3. **[Replicate API](https://replicate.com/)** - AI-powered image generation.
 4. **[Streamlit](https://streamlit.io/)** - Web-based UI framework.
 
----
 
 ## Contact & Contributions
 
@@ -108,7 +73,6 @@ Feel free to contribute or reach out!
 1. **GitHub Issues** - Report bugs or request features.
 2. **Pull Requests** - Improve the project with your contributions.
 
----
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
