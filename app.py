@@ -72,13 +72,11 @@ def main():
     prompt = st.text_input("Enter your prompt:", 
                            "Nikhil summiting Mt. Rainier...")
     
-    losf = ['https://github.com/unikill066/FLUX-image-generator/blob/50fd7a5b97895ce13f61c4a923df7a3c2afcc0a1/misc/mtr1.png',
-            'https://github.com/unikill066/FLUX-image-generator/blob/50fd7a5b97895ce13f61c4a923df7a3c2afcc0a1/misc/mtr2.png']
+    losf = ['misc/mtr1.png',
+            'misc/mtr2.png']
     
     lisf_url = random.choice(losf)
-    response = requests.get(lisf_url, stream=True)
-    response.raise_for_status()
-    image = Image.open(io.BytesIO(response.content))
+    image = Image.open(lisf_url)
     st.image(image)
     
     with st.expander("Advanced Settings"):
