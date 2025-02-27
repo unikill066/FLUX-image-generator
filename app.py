@@ -1,6 +1,6 @@
 # imports
 from PIL import Image
-import streamlit as st, importlib.util, os, requests, sys, subprocess, google.generativeai as genai
+import streamlit as st, importlib.util, os, io, requests, sys, subprocess, google.generativeai as genai, random
 
 try:
     import replicate
@@ -71,7 +71,16 @@ def main():
     
     prompt = st.text_input("Enter your prompt:", 
                            "Nikhil summiting Mt. Rainier...")
-
+    
+    losf = ['https://github.com/unikill066/FLUX-image-generator/blob/50fd7a5b97895ce13f61c4a923df7a3c2afcc0a1/misc/mtr1.png',
+            'https://github.com/unikill066/FLUX-image-generator/blob/50fd7a5b97895ce13f61c4a923df7a3c2afcc0a1/misc/mtr2.png']
+    
+    lisf_url = random.choice(losf)
+    response = requests.get(lisf_url, stream=True)
+    response.raise_for_status()
+    image = Image.open(io.BytesIO(response.content))
+    st.image(image)
+    
     with st.expander("Advanced Settings"):
         num_steps = st.slider("Number of Inference Steps", 1, 50, 28)
         guidance_scale = st.slider("Guidance Scale", 1.0, 10.0, 5.0)
