@@ -6,9 +6,11 @@ Hosted on Streamlit: [Link to Nikhil's Image Generator App on Streamlit](https:/
 Hosted on HugginFace Spaces: [Link to Nikhil's Image Generator App on HuggingFace](https://huggingface.co/spaces/unikill066/Flux-image-generator)
 
 More about this repo:
-<video controls>
-  <source src="misc/nikhil_img_gen_audio.mp4" type="video/mp4">
-</video>
+<audio controls>
+  <source src="misc/nikhil_img_gen_audio.mp4" type="audio/mp4">
+  Your browser does not support the audio element.
+</audio>
+
 ---
 
 ## Preview & Example
