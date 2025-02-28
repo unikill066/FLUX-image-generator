@@ -7,7 +7,7 @@ Hosted on HugginFace Spaces: [Link to Nikhil's Image Generator App on HuggingFac
 
 More about this repo:
 <audio controls>
-  <source src="misc/nikhil_img_gen_audio.wav" type="audio/wav">
+  <source src="https://github.com/unikill066/FLUX-image-generator/blob/091591da31364879703bebf23c801aa738a67f86/misc/nikhil_img_gen_audio.wav" type="audio/wav">
 </audio>
 
 ---
