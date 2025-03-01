@@ -66,8 +66,8 @@ gemini_model = genai.GenerativeModel(
 )
 
 def main():
-    st.title("Welcome to Nikhil's Image Generator using Flux")
-    st.write("This app will generate AI Images of Nikhil based on the context")
+    st.title("Welcome to Nikhil's Image Generator using Flux:")
+    st.write("This app will generate AI Images of Nikhil based on the context...")
     
     prompt = st.text_input("Enter your prompt:", 
                            "Nikhil summiting Mt. Rainier...")
