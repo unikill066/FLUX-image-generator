@@ -79,5 +79,8 @@ Feel free to contribute or reach out!
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
+## References
+1. [FLUX image generation](https://medium.com/@drmarcosv/how-does-flux-work-the-new-image-generation-ai-that-rivals-midjourney-7f81f6f354da)
+
 
  **Happy Image Generating!**
